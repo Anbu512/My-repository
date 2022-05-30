@@ -1,0 +1,98 @@
+/*body {
+    /* background-color: rgb(166, 209, 166); */
+
+
+body{
+    margin: 0;
+    text-align: center;
+    /*background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(a1.jpg);*/
+    background-size: center;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+body>h1 {
+    background-color: rgba(245, 245, 245, 0.549);
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* input:nth-child(1), */
+input:nth-child(2),
+input:nth-child(3) { 
+    padding: 10px 20px 10px 20px;
+    /* height: 25px; */
+    width: auto;
+    text-align: center;
+    /* border-color: #0714ca; */
+    background-color: rgb(241, 243, 98);
+    border-radius: 30px;
+    transition: background 0.5s;
+    /* border-style:solid; */
+    /* font-family: 'Verdana', Geneva, Tahoma, sans-serif; */
+    font-family: cursive;
+    font-weight: bold;
+}
+input:nth-child(1) {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin:30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-family: cursive;
+    font-weight: bold;
+}
+    input:nth-child(1):hover{
+    background: #ee2fee;
+    }
+/*input:nth-child(4) {
+    height: 30px;
+    width: auto;
+    text-align: center;
+    border:rgb(12, 15, 180);
+    background-color: rgb(185, 196, 35);
+}*/
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main p {
+    text-align: center;
+    overflow: visible;
+    text-align: left;
+    font-weight: bold;
+    width: 600px;
+    height: 300px;
+    border: 5px solid rgb(219, 18, 79);
+    resize: vertical;
+}
+
+#main>div>h1 {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 150, 109, 0.973);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
